@@ -1,4 +1,4 @@
-﻿namespace SortingAlgorithms;
+﻿namespace SortingAlgorithms.Algorithms;
 public class QuickSort
 {
     private static int partition(int[] array, int subArrayIndexStart, int subArrayIndexEnd)

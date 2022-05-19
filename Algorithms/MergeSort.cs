@@ -1,4 +1,4 @@
-﻿namespace SortingAlgorithms;
+﻿namespace SortingAlgorithms.Algorithms;
 
 public class MergeSort
 {
