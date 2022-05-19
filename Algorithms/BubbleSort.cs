@@ -19,3 +19,17 @@ public class BubbleSort
         return array;
     }
 }
+
+/*
+Strategy for bubble sort
+
+It uses two for loops because it needs to look at every number in the array and compare it to every other number
+
+second for loop stops at array.Length - i -1.
+
+loop i from 0 to array.length
+    loop j from 0 to arrLen - i - 1
+    if(value is greater)
+      swap values
+
+*/
