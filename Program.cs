@@ -10,7 +10,8 @@ void StartSorting()
     //BubbleSortCallingFunction();
     //SelectionSortCallingFunction();
     //InsertionSortCallingFunction();
-    CountingSortCallingFunction();
+    //CountingSortCallingFunction();
+    RadixSortCallingFunction();
 }
 
 
@@ -74,6 +75,13 @@ void CountingSortCallingFunction()
 {
     var array = new int[] { 10, 9, 3, 2, 1, 0 };
     var result = CountingSort.Sort(array);
+    PrintArray(result);
+}
+
+void RadixSortCallingFunction()
+{
+    var array = new int[] { 90000, 234, 789,10, 9, 3, 2, 1, 0 };
+    var result = RadixSort.Sort(array);
     PrintArray(result);
 }
 
